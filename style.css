@@ -1,0 +1,55 @@
+h1{
+    position: relative;
+    color: green;
+    font-size: 60px;
+    text-align: center;
+}
+
+body{
+    margin: 0px;
+    background-color: #F9F3E3;
+}
+
+#boardcontainer{
+    border: 8px solid lightseagreen;
+    width: 464px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.boardtile{
+    width: 100px;
+    height: 100px;
+    border: 8px solid lightseagreen;
+    float: left;
+}
+
+.tile{
+    width: 100px;
+    height: 65px;
+    background-color: green;
+    z-index: 50;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    font: bold 24px arial;
+    color: #5C5B57;
+    padding-top: 35px;
+    color: white;
+}
+
+#playerScore{
+    padding: 10px;
+    font-size: 30px;
+    position: relative;
+    text-align: center;
+    color: green;
+}
+
+#playerMessage{
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    color: green;
+}

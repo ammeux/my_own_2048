@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to 2048</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1> WELCOME TO 2048 </h1>
+<div id = "boardcontainer">
+    <div class = "boardtile emptytile" data-row="0" data-col="0"></div>
+    <div class = "boardtile fulltile" data-row="0" data-col="1"></div>
+    <div class = "boardtile emptytile" data-row="0" data-col="2"></div>
+    <div class = "boardtile emptytile" data-row="0" data-col="3"></div>
+    <div class = "boardtile emptytile" data-row="1" data-col="0"></div>
+    <div class = "boardtile emptytile" data-row="1" data-col="1"></div>
+    <div class = "boardtile emptytile" data-row="1" data-col="2"></div>
+    <div class = "boardtile emptytile" data-row="1" data-col="3"></div>
+    <div class = "boardtile emptytile" data-row="2" data-col="0"></div>
+    <div class = "boardtile emptytile" data-row="2" data-col="1"></div>
+    <div class = "boardtile fulltile" data-row="2" data-col="2"></div>
+    <div class = "boardtile emptytile" data-row="2" data-col="3"></div>
+    <div class = "boardtile emptytile" data-row="3" data-col="0"></div>
+    <div class = "boardtile emptytile" data-row="3" data-col="1"></div>
+    <div class = "boardtile emptytile" data-row="3" data-col="2"></div>
+    <div class = "boardtile emptytile" data-row="3" data-col="3"></div>
+    <div class="tile" style="top: 8px;left: 124px" data-row="0" data-col="1">2</div>
+    <div class="tile" style="top: 240px;left: 240px" data-row="2" data-col="2">4</div>
+    <div style="clear:both"></div>
+</div>
+<div id="playerScore"> Your score: 0 </div>
+<div id="playerMessage"> Use arrow keys to move tiles (press "r" to restart) </div>
+</body>
+<script src="script/jquery-3.3.1.js"></script>
+<script src="mover.js"></script>
+<script src="functions.js"></script>
+</html>
